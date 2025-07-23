@@ -15,7 +15,7 @@ Figure: Layout of the experiment area
 - **Kalman Filtering:** Applies Kalman filtering to the RSSI data to enhance accuracy.
 
 <p align="center">
-    <img src="public/images/kalman_filter.png" width="300">
+    <img src="indoor-positioning-trilateration/public/images/kalman_filter.png" width="300">
 </p>
 <p align="center">
 Figure: Line graph showing how the Kalman filter works
@@ -25,7 +25,7 @@ Figure: Line graph showing how the Kalman filter works
 - **Real-time Visualization:** Uses Matplotlib to display the positioning and RSSI data dynamically.
 
 <p align="center">
-    <img src="public/images/matplotlib.png" width="600">
+    <img src="indoor-positioning-trilateration/public/images/matplotlib.png" width="600">
 </p>
 <p align="center">
 Figure: Graphical display run when the server is run, showing the trilateration and RSSI values received
@@ -39,7 +39,7 @@ Figure: Graphical display run when the server is run, showing the trilateration 
 - 1 x Pixel Display
 
 <p align="center">
-    <img src="public/images/pixel_display.png" width="200">
+    <img src="indoor-positioning-trilateration/public/images/pixel_display.png" width="200">
 </p>
 <p align="center">
 Figure: Example of what the pixel display will look like when the server is run
@@ -56,7 +56,7 @@ Figure: Example of what the pixel display will look like when the server is run
 Start the system by powering up the ESP32-S3 boards and the target BLE device. Ensure the MQTT broker is running, and execute the server script to begin receiving and processing data. The real-time location of the target device will be displayed on the pixel display and the Matplotlib graph.
 
 <p align="center">
-    <img src="public/images/sequence.jpg" width="600">
+    <img src="indoor-positioning-trilateration/public/images/sequence.jpg" width="600">
 </p>
 <p align="center">
 Figure: Sequence diagram/flow of the solution
