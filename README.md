@@ -4,7 +4,7 @@
 This project implements an indoor positioning system (IPS) using Bluetooth Low Energy (BLE) technology. It utilizes RSSI (Received Signal Strength Indicator) values from three ESP32-S3 Feather modules acting as beacons to calculate the position of a target device through trilateration. The system processes these signals to provide real-time positioning within an indoor environment.
 
 <p align="center">
-    <img src="public/images/positioning.png" width="200">
+    <img src="indoor-positioning-trilateration/public/images/positioning.png" width="200">
 </p>
 <p align="center">
 Figure: Layout of the experiment area
